@@ -41,3 +41,30 @@ print('jargon' in 'I hope this course is not full of jargon')
 str(float(len('python')))
 
 ## 17
+num = int(input('Please enter number: '))
+even = int(num%2)
+
+# 18
+is_equal = (7//3) == int(2.7)
+
+## 19
+is_equal = type('10') == type(10)
+
+## 20
+is_equal = int(9.8) == 10
+
+## 21
+hours = int(input('Enter hours: '))
+rate = int(input('Enter rate per hour: '))
+earning = hours * rate
+print('Your weekly earning is ', int(earning))
+
+## 22 
+lived_years = int(input('Enter number of years you have lived: '))
+years_to_seconds = lived_years * 365 * 24 * 60 * 60
+print(f'You have lived for ${years_to_seconds} seconds')
+
+# ## 23
+for i in range(1,6): 
+    print(i, i**0, i**1, i**2, i**3)
+    
