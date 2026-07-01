@@ -1,7 +1,7 @@
 # Day 2: 30 Days of python programming
 
-first_name = 'Phu'
-last_name = 'Thas'
+first_name = 'Poosana'
+last_name = 'Thassanavisut'
 full_name = first_name + ' ' + last_name 
 country = 'Thailand'
 city = 'Chiang Mai'
